@@ -12,5 +12,5 @@ app.use(express.json());
 app.use("/users", userController);
 
 app.listen(PORT, () => {
-  console.log("Listening on http://localhost:4000");
+  console.log("Listening on http://localhost:3000");
 });
